@@ -25,7 +25,7 @@
     <div class="card-header bg-warning text-dark d-flex justify-content-between">
         <button class="btn btn-light" id="addData">
             <i class="fa fa-plus"></i>
-            <span>Tambah Product</span>
+            <span>add Product</span>
         </button>
         <input type="text" wire:model="search" class="form-control w-25" placeholder="Search....">
     </div>
