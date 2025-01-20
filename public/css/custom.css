@@ -1,0 +1,193 @@
+.circle{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    background-color:#dd3535;
+    color:#ffffff;
+    text-align: center;
+    font-size: 12px;
+    top:10px;
+    right: 80px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff8e1; /* Light yellow background */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #fdd835; 
+    padding: 10px 0;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff; /* White text color */
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* White icon */
+}
+
+.navbar-nav .nav-link {
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f57f17; /* Dark yellow on hover */
+}
+
+.btn-success {
+    background-color: #fbc02d; /* Yellow button */
+    border-color: #fbc02d;
+    padding: 8px 20px;
+    font-weight: bold;
+}
+
+.btn-success:hover {
+    background-color: #f57f17; /* Dark yellow on hover */
+    border-color: #f57f17;
+}
+
+.fa-bag-shopping {
+    color:  #f57f17;; 
+    font-size: 30px; 
+}
+
+.fa-bag-shopping:hover {
+    color: #9f5310
+}
+
+.d-flex {
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-nav .nav-item {
+    padding: 10px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/* Copyright Section */
+footer .copyright {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #333;
+}
+
+footer .copyright p {
+    margin: 0;
+}
+
+/*custom footer*/
+
+footer {
+    background-color: #fdd835; /* Yellow background for the footer */
+    color: #333; /* Dark text color */
+    padding: 40px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+footer .d-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+footer .title-left, footer .title-middle, footer .title-sosmed {
+    flex: 1;
+    min-width: 250px;
+}
+
+footer .header-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #184E77; /* Dark blue color for headers */
+}
+
+footer p, footer li, footer address {
+    font-size: 1rem;
+    color: #666; /* Light gray text for paragraph and list items */
+    margin-bottom: 8px;
+}
+
+footer .title-middle ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .title-middle li {
+    margin-bottom: 8px;
+}
+
+footer .title-sosmed {
+    display: flex;
+    gap: 20px;
+    font-size: 1.5rem;
+    color: #184E77; /* Dark blue color for social icons */
+}
+
+footer .title-sosmed i {
+    transition: color 0.3s ease;
+}
+
+footer .title-sosmed i:hover {
+    color: #fbc02d; /* Yellow color on hover */
+}
+
+/* Address styling */
+footer address {
+    font-style: normal;
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    footer .d-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .title-left, footer .title-middle, footer .title-sosmed {
+        text-align: center;
+    }
+
+    footer .title-sosmed {
+        margin-top: 20px;
+    }
+}
+
+/*konten*/
+
+section{
+    min-height: 60vh;
+}
